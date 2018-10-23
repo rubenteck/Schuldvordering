@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddUserActivity">
+
+    <EditText
+        android:id="@+id/txtPersoneelsNr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="personeelsnummer"
+        android:inputType="text" />
+
+    <Spinner
+        android:id="@+id/spnDepartement"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtNaam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="naam"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtStraat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="straat"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtGemeente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="gemeente"
+        android:inputType="text" />
+
+    <Spinner
+        android:id="@+id/spnActiviteit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spnLand"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtStad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="stad"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtVertrekDatum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="vertrek datum"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtRetourDatum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="retour datum"
+        android:inputType="text" />
+
+    <Spinner
+        android:id="@+id/spnCampus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save" />
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddUserActivity">
+
+    <EditText
+        android:id="@+id/txtDatum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="datum: dd/mm/jj"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtAdresVertrek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="adres vertrek"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtAdresBestemming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="adres bestemming"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="code"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtKm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="kilometer"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtBedragLokaleMunt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="bedrag + lokale munteenheid"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtBedrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="bedrag in euro"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save" />
+
+</LinearLayout>
